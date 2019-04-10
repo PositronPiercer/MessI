@@ -1,0 +1,28 @@
+{
+  "name": "messi",
+  "version": "1.0.0",
+  "description": "mess app",
+  "main": "detect.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrKoN/darknet.git"
+  },
+  "author": "positron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrKoN/darknet/issues"
+  },
+  "homepage": "https://github.com/OrKoN/darknet#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "firebase-admin": "^7.1.1",
+    "multer": "^1.4.1"
+  }
+}
