@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Book your table for tomorrow
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-list>
+
+<ion-item>
+  <ion-label>Timings</ion-label>
+  <ion-datetime displayFormat="hh mm A" pickerFormat="hh mm A" [(ngModel)]="dateOfEvent" #timings></ion-datetime>
+</ion-item>
+
+  <ion-item>
+    <ion-label floating>What would you like to eat?</ion-label>
+    <ion-input type="text" [(ngModel)]="meal" #book_meal></ion-input>
+  </ion-item>
+
+</ion-list>
+<button ion-button color="#84b4ff" full (click)="book()">Book</button>
+
+<!-- my bookings -->
+  <ion-card id="my-bookings">
+  <ion-card-header class="heading">
+    My Bookings
+  </ion-card-header>
+
+  <ion-list id="menu-items">
+    <ion-item class="food_item">
+      {{book_1}}
+    </ion-item>
+    <ion-item class="food_item">
+      {{book_2}}
+    </ion-item>
+
+
+
+
+  </ion-list>
+</ion-card>
+</ion-content>

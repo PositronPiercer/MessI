@@ -1,0 +1,9 @@
+node_modules
+build/
+.DS_Store
+test/yolo.weights
+test/data.modified.raw
+test/data.raw
+npm-debug.log
+*.ffm
+test/detected.mp4

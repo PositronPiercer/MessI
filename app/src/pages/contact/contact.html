@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Schedule
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+<ion-card *ngFor="let item of data">
+	<ion-card-header color="primary">{{item.day}}</ion-card-header>
+	<span class="men">
+	<p> <b>Breakfast</b> : {{item.breakfast}}</p>
+	<p> <b>Lunch :</b> {{item.lunch}}</p>
+	<p> <b>Dinner :</b> {{item.dinner}}</p>
+</span>
+
+</ion-card>
+</ion-content>

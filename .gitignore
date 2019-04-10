@@ -1,0 +1,40 @@
+#app secret files
+my-release-key.keystore
+
+
+#server secrets
+pvtkey.json
+
+
+*.o
+*.dSYM
+*.csv
+*.out
+*.png
+*.jpg
+*.pyc
+old/
+mnist/
+data/
+caffe/
+grasp/
+images/
+opencv/
+convnet/
+decaf/
+submission/
+cfg/
+darknet
+darknet.a
+.fuse*
+
+# OS Generated #
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.swp
+
+.idea
+libdarknet.*
+yolo.weights

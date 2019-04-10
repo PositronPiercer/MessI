@@ -1,0 +1,38 @@
+<!-- <ion-header>
+  <ion-navbar>
+	Messi  </ion-navbar>
+</ion-header> -->
+
+<ion-content class="card-background-page">
+
+  <ion-card>
+    <img src="assets/imgs/food.jpg"/>
+    <div class="card-title">{{headCount}}</div>
+    <div class="card-subtitle">guys in mess now</div>
+  </ion-card>
+
+  <ion-card id="todays-menu-card">
+  <ion-card-header class="heading">
+    Todays Menu
+  </ion-card-header>
+
+  <ion-list id="menu-items">
+    <ion-item class="food_item">
+      <b>Breakfast :</b> {{breakfast}}
+    </ion-item>
+    <ion-item class="food_item">
+      <b>Lunch : </b>{{lunch}}
+    </ion-item>
+    <ion-item  class="food_item">
+      <b>Dinner :</b> {{dinner}}
+    </ion-item>
+
+
+
+  </ion-list>
+</ion-card>
+
+<button ion-button color="#84b4ff" full (click)="sign_out()">Sign Out</button>
+
+
+</ion-content>

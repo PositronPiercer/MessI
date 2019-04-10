@@ -1,0 +1,48 @@
+page-home {
+.card-background-page {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+  .heading{
+    font-weight:bold
+  }
+  #todays-menu-card{
+    background: #a5ffe1
+  }
+  #menu-items{
+    background: #5b96f7
+  }
+
+    ion-navbar{
+    font-weight: bold;
+    align-content: center;
+  }
+
+
+
+
+}
+
+
+}
+
